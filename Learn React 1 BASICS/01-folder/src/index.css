@@ -1,0 +1,21 @@
+*{
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  max-width: 95%;
+  margin-inline: auto;
+  padding: 10px;
+  background-color: pink;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  p {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  padding: 40px;
+  background-color: black;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}

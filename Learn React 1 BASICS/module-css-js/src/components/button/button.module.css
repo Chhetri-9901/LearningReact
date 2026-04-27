@@ -1,0 +1,13 @@
+.btn {
+  text-align: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  font: bold 14px Arial, sans-serif;
+  padding: 5px 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}

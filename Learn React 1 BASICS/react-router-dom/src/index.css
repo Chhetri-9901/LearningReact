@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    background-color: rgb(4, 79, 89);
+}
+
+.pages {
+    display: flex;
+    gap: 20px;
+
+    a {
+        color: white;
+    }
+}
+
+
+.page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}

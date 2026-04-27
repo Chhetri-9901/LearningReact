@@ -1,0 +1,12 @@
+27/04/2026 [https://github.com/sudheerj/reactjs-interview-questions]
+QUESTIONS:
+    1. What is React?
+    2. What is JSX?
+    3. What is the difference between an Element and a Component?
+
+ANSWERS:
+    1. React is an open source javascript library created by Meta, where we developers create resuable components. We use JSX to create components which allows us to use JS and HTML syntax in a single file, which features the concept of virtual DOM, which basically updated a section of page that has changed. 
+
+    2. JSX stands for Javascript XML, it is a syntax extension, where we describe what the UI should look like. It gives us the flexibility to use HTML like struture with JS logic in one single file. 
+
+    3. Elements in React are the basic building block, a plain javascript object that descibes the DOM node, and they are immutable, while components are functions or classes that accepts inputs and returns a react element tree. 

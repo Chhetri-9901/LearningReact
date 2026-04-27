@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+#card-container {
+  padding-bottom: 10px;
+}
+#card-container::-webkit-scrollbar {
+  height: 4px; /* Height for horizontal */
+  width: 100%; /* Width for vertical */
+}
+
+/* 2. CRITICAL: Give the "thumb" a color */
+#card-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Dark Grey */
+  border-radius: 10px; /* Optional: Rounds the edges */
+}
+
+/* 3. OPTIONAL: Give the background track a color */
+#card-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Light Grey */
+}
