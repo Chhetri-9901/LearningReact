@@ -13,10 +13,10 @@ const Sidebar = () => {
         <h1 className="text-white text-xl">Life OS</h1>
         <button
           type="button"
-          className="text-white font-semibold text-lg cursor-pointer close"
+          className="text-white font-semibold text-lg cursor-pointer close w-[100%] max-w-8"
           onClick={() => {setIsOpen(true)}}
         >
-          <img src={expandArrow} alt="expand side bar" className="w-full" />
+          <img src={expandArrow} alt="expand side bar" className="w-[100%]" />
         </button>
       </div>
     </div>
