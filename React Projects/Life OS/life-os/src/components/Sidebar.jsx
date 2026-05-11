@@ -9,7 +9,7 @@ const Sidebar = () => {
   if(!isOpen) {
     return (
       <div className="w-2/16 h-[100vh] bg-[var(--dark-blue)] px-6 py-8 sidebar">
-      <div className="flex justify-between gap-4">
+      <div className="flex justify-between gap-4 items-center min-h-10">
         <h1 className="text-white text-xl">Life OS</h1>
         <button
           type="button"
@@ -25,7 +25,7 @@ const Sidebar = () => {
 
   return (
     <div className="w-2/8 h-[100vh] bg-[var(--dark-blue)] px-6 py-8 sidebar">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center min-h-10">
         <h1 className="text-white text-xl">Life OS</h1>
         <button
           type="button"
