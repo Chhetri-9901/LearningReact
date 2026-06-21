@@ -1,14 +1,18 @@
-import React from 'react'
-import Sidebar from './components/Sidebar'
-import Weather from './components/Weather'
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Weather from "./components/Weather";
+import Subscription from "./components/Subscription";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex">
       <Sidebar></Sidebar>
-      <Weather></Weather>
+      <div className="w-full">
+        <Weather></Weather>
+        <Subscription></Subscription>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
